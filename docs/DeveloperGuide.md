@@ -351,7 +351,7 @@ The following sequence diagram illustrates how this feature works. <br>
 
 ![image](https://user-images.githubusercontent.com/59434361/97977429-2b993f80-1e07-11eb-8b57-c6c72eb7e11c.png) <br>
 
-## 5 Dev Ops
+## 5. Dev Ops
 ### 5.1 Build Automation
 This project uses Gradle for build automation and dependency management. <br>
 
@@ -415,5 +415,14 @@ The following statements describe the non-functional requirements for the applic
 ## Appendix D: Glossary
 * Mainstream OS: Windows, Linux, macOS
 
-## Appendix E: Instructions for manual testing
-{Give instructions on how to do a manual product testing e.g., how to load sample data to be used for testing}
+## Appendix E: Instructions for Manual Testing
+Given below are the instructions to test the application manually.
+
+### E.1 Launch
+1. Download the jar file and copy into an empty folder.
+2. Navigate to the folder in the command prompt.
+3. Enter `java -jar Duke.jar` and press `enter` to launch the application. 
+4. You should expect a new `data` folder created within the same folder as the jar file. This `data` folder will contain a file named `duke.json`.
+
+### E.2 Application Commands
+Please refer to [Cent Wise Dollar Wise User Guide] (https://ay2021s1-cs2113t-f14-2.github.io/tp/UserGuide.html). Input commands and expected outputs for the respective commands are shown here.
